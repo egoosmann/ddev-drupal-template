@@ -1,7 +1,7 @@
 ## Configure DDEV
 
 ```
-ddev config --auto
+ddev config --auto --additional-fqdns=localhost
 ddev add-on get ddev/ddev-phpmyadmin
 ddev start
 ```
