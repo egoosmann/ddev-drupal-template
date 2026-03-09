@@ -10,5 +10,10 @@ ddev start
 ## After installation
 ```
 ddev scaffold-settings
+```
+
+## Sync production to development
+```
+ddev auth ssh
 ddev sync [USER] [HOST]
 ```
